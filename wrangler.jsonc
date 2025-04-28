@@ -1,0 +1,30 @@
+{
+  "name": "odd-wood-8a42",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "odd-wood-8a42-d1",
+      "database_id": "d586a019-b945-4789-985c-ab1dde5a0dc3"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "odd-wood-8a42-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
